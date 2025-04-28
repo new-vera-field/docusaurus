@@ -30,7 +30,7 @@ jobs:
           max_timeout: 600
       - name: Audit URLs using Lighthouse
         id: lighthouse_audit
-        uses: treosh/lighthouse-ci-action@03becbfc543944dd6e7534f7ff768abb8a296826 # 10.1.0
+        uses: treosh/lighthouse-ci-action@2f8dda6cf4de7d73b29853c3f29e73a01e297bd8 # 12.1.0
         with:
           urls: |
             https://deploy-preview-$PR_NUMBER--docusaurus-2.netlify.app/
