@@ -31,9 +31,8 @@ Docusaurus is a project for building, deploying, and maintaining open source pro
 
 Short on time? Check out our [5-minute tutorial ⏱️](https://tutorial.docusaurus.io)!
 
-**Tip**: use **[docusaurus.new](https://docusaurus.new)** to test Docusaurus immediately in a playground.
+**Tip**: use **[docusaurus.new](https://docusaurus.new)** to test Docusau
 
-- **Simple to Start**
 
 > Docusaurus is built in a way so that it can [get running](https://docusaurus.io/docs/installation) in as little time as possible. We've built Docusaurus to handle the website build process so you can focus on your project.
 
