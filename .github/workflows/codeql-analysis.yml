@@ -36,9 +36,9 @@ jobs:
         uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@cdcdbb579706841c47f7063dda365e292e5cad7a # 2.13.4
+        uses: github/codeql-action/init@fca7ace96b7d713c7035871441bd52efbe39e27e # 3.28.19
         with:
           languages: ${{ matrix.language }}
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@cdcdbb579706841c47f7063dda365e292e5cad7a # 2.13.4
+        uses: github/codeql-action/analyze@fca7ace96b7d713c7035871441bd52efbe39e27e # 3.28.19
